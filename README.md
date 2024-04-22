@@ -1,1 +1,1 @@
-Find the factorial of any number
+Find the APPROXIMATE factorial of any number
