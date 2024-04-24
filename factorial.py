@@ -34,4 +34,8 @@ def gamma(z):
         y = sqrt(2 * pi) * t ** (z + 0.5) * exp(-t) * x
     return drop_imag(y)
 
-print(gamma(eval(input("Enter number "))))
+inp=eval(input("Enter element "))
+if inp==0:
+    print("1")
+else:
+    print(gamma(inp))
