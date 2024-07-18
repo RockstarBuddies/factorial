@@ -38,4 +38,4 @@ inp=eval(input("Enter element "))
 if inp==0:
     print("1")
 else:
-    print(gamma(inp))
+    print(gamma(inp+1))
